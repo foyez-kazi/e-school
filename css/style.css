@@ -5,8 +5,9 @@ body {
 }
 
 h1,
-h2 {
-  font-weight: 800;
+h2,
+h5 {
+  font-weight: bold;
 }
 
 .navbar {
@@ -63,6 +64,31 @@ h2 {
 .course-section .card {
   border: none;
   box-shadow: 5px 5px 10px lightgrey;
+}
+
+.notice-section {
+  background: url('../img/Photos/notice.jpg') no-repeat;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.notice-section .carousel-item {
+  text-align: center;
+}
+
+.notice-section .coming-soon {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {

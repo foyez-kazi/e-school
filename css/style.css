@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+.navbar {
+  background-color: #f0fff0;
+}
+
+.custom-btn,
+.custom-btn:hover {
+  background-color: #21b573;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header-section {
+  background-color: #f0fff0;
+  padding: 50px 0;
+}
+
+.header-section .question {
+  color: #fd511a;
+}
+
+.header-section .schedule {
+  color: #21b573;
+}
+
+.books-section,
+.course-section,
+.testimonial-section {
+  margin: 80px 0;
+}
+
+.books-section .box {
+  background-color: #f8fffb;
+  text-align: center;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.books-section .box img {
+  width: 50px;
+}
+
+.books-section .box2 {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.course-section .card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgrey;
+}
+
+.footer {
+  background-color: #282531;
+  color: #fff;
+  padding: 50px 0 10px 0;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+}
